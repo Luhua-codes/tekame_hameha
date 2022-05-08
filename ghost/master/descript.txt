@@ -17,6 +17,7 @@ type,ghost
 
 sakura.name,Tekame
 kero.name,mail
+seriko.use_self_alpha,1 //use images original transparency values
 
 
 //This is the information about you, the creator of your ghost! Put in your name or whatever alias you want and whatever website you'd like to link to.
