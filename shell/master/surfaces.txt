@@ -253,6 +253,11 @@ IF YOU ABSOLUTELY CAN'T GET THE BLINKING/TALKING FRAMES TO LOOK RIGHT
 If it comes to that, you can delete those chunks of code and just leave surface0 like the other simple poses below. 
 It'd look something like
 
+
+WALKING**TODO** */ 
+//5interval,random,4 //what does 4 do?
+//5pattern0,-1,0,
+
 //surface0
 //{
 //collision0,57,22,112,46,Head
@@ -261,7 +266,7 @@ It'd look something like
 //element0,overlay,surface0.png,0,0
 //}
 
-And that's it. You can do this with Triangle below too, if you just can't get it to work. 
+/*And that's it. You can do this with Triangle below too, if you just can't get it to work. 
 If you do do this, make sure to delete the blinking/talking 
 .png files as well to clear up any error messages that may come up as a result of them not being used. */
 }
