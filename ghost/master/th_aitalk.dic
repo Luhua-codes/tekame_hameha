@@ -91,7 +91,7 @@ OnSecondChange{ //check every second
  }
  
 MikireTalk { //dialogue for when chars are offscreen
-	"\0\s[0]Waaaah it's dark out here! \w8\n[half]Bring me back with Ctrl-Shift-F12.\e"
+	"\0\s[0]Waaaah it's dark out here! \w8\nBring me back with Ctrl-Shift-F12.\e"
 }
  
 EndMikireTalk { //dialogue once chars brought back onscreen
