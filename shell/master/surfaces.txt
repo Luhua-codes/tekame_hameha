@@ -1,11 +1,9 @@
-/*
-0 - Default pose
-	surface0.png - full default frame with eyes and mouth in place to layer stuff on.
-	surface1001.png - half-closed eyes
-	surface1002.png - closed eyes. These two frames are used to make the blinking animation.
-	surface1101.png - half-open mouth
-	surface1102.png - open mouth. These two frames are used for the talking animation.
-*/
+//0 - Default pose
+//	surface0.png - full default frame with eyes and mouth in place to layer stuff on.
+//	surface1001.png - half-closed eyes
+//	surface1002.png - closed eyes. These two frames are used to make the blinking animation.
+//	surface1101.png - half-open mouth
+//	surface1102.png - open mouth. These two frames are used for the talking animation.
 
 surface0{ 
 	element0,overlay,surface0.png,0,0
