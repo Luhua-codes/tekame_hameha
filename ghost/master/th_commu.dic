@@ -10,6 +10,7 @@ ReplyToUser{
 	TalkToUser
 }
 
+/*
 ReplyToGhost{
 	if reference0 == "Gaster"{
 		res_reference0 = "Gaster"
@@ -19,7 +20,7 @@ ReplyToGhost{
 			"\0\s[0]Hello, %(res_reference0)!\e"
 		}
 	}
-}
+}*/
 
 ReplyToGhost{ //method overload??? How does it know which one without param signature...?
     if AlreadyResponded == 1{

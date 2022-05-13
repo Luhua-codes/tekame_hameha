@@ -38,6 +38,11 @@ RandomTalk : nonoverlap_pool
 	//use \f[default] to return to default text settings
 	
 	"\0\s[0]Here's a link to a website. \_a[http://www.website.com/]Right here.\_a\e" //using anchor tags
+	"(uwu, you say)\w4\0\s[0]owo\e"
+	"\0\s[0]Did you know that turtles are one of the oldest reptiles in the world?\e"
+	"\0\s[0]I carry letters in my shell! It also makes a comfy pillow for my friends sometimes.\e"
+	"\0\s[0]Did you know some of my cousins are ninjas?\e"
+	"\0\s[0]Wanna see a cool trick? \w9\f[height,20]KA\w3ME\w3HA\w3ME\w3HAAAAA \f[default]Cool, right?\e"
 }
 
 HourCheck {	//check every hour
@@ -57,7 +62,10 @@ OnMinuteChange { //check every minute
 			"\0\s[0]It's midnight!\e"
 			"\0\s[0]This is another bit of dialogue for midnight.\w8\0\s[0]BooooOoooOOOooOOOOo.\e"
 			"\0\s[0]This is the third bit of dialogue for midnight.\e"
-		}else{
+		}elseif hour == 21{
+			"\0\s[0]Don't you think it's time for bed?\e"
+		}
+		else{
 			"\0\s[0]It's %(hour12)'o clock.\e"
 		}
 	}elseif hour == 23 && minute == 55{ //23:55
