@@ -1,5 +1,0 @@
-Run Coordin.exe.
-
-Drag and drop one of your surface.pngs into the window that comes up. You should see your image. Click and drag on the image to create a rectangle. 
-
-The coordinates for the rectangle are then copied automatically to your clipboard! So you can then go into surfaces.txt and hit Paste or Ctrl-V to paste them where you need them for your collisions.

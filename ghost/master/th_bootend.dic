@@ -14,17 +14,15 @@
 	nowshell = "master" //This is for a special if check in aitalk.dic to see what shell the ghost is using. You should use the name of your default shell folder here.
 	firstboot = 1 //This marks that this is the first time you've run the ghost. It's so it won't reroute to general name changing dialogue when the user inputs their name.
 	
-	if reference0 == 0 {		
-		"\![enter,passivemode]\0\s[0]Hello!\w5My name is Tekame Hameha!\w8How should I refer to you?\n\n[half]/
-		\w5\_q\![*]\q[He/Him/His,choicefirsthehim]\n/
-		\![*]\q[She/Her/Hers,choicefirstsheher]\n/
-		\![*]\q[They/Them/Their,choicefirsttheythem]\e"
+	if reference0 == 0 {
+		"\!\0\s[0]Hello!\w5My name is Tekame Hameha!\e"
  	}else{
  		"\0\s[0]Yay, I'm back!\e"
  	}
 }
 
-Select.choicefirsthehim{
+Select.choicefirsthehim
+{
 	presuffix = "masculine"
 	himher = "him"
 	heshe = "he"
@@ -34,7 +32,8 @@ Select.choicefirsthehim{
 	NameInput
 }
 
-Select.choicefirstsheher{
+Select.choicefirstsheher
+{
 	presuffix = "feminine"
 	himher = "her"
 	heshe = "she"
@@ -44,7 +43,8 @@ Select.choicefirstsheher{
 	NameInput
 }
 
-Select.choicefirsttheythem{
+Select.choicefirsttheythem
+{
 	himher = "them"
 	heshe = "they"
 	hisher = "theirs"
@@ -53,9 +53,9 @@ Select.choicefirsttheythem{
 	NameInput
 }
 
-NameInput{	
-	"\0\s[0]Now that your pronouns are set, what should I call you? \![leave,passivemode]\w8\![open,inputbox,OnNameTeach,-1]\e"
-}
+//NameInput{	
+//	"\0\s[0]Now that your pronouns are set, what should I call you? \![leave,passivemode]\w8\![open,inputbox,OnNameTeach,-1]\e"
+//}
 
 timeslot{ //tracks time
 	if hour >= 5 && hour <= 8 {	

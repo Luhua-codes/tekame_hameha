@@ -1,8 +1,0 @@
-
-　Coordin phase 4
-
-　当たり判定の作成補助。
-　画像をDnDしてマウスで長方形を選択すると、リアルタイムに座標（10,10,200,150とか）をクリップボードにコピーします。あとはsurfaces.txtに「貼り付け」るだけ。
-
-作者：櫛ヶ浜やぎ
-配布元：http://www.geocities.co.jp/SiliconValley-Cupertino/8536/
